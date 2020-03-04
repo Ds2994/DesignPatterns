@@ -1,0 +1,20 @@
+package com.deadsec.test;
+
+import java.util.Scanner;
+
+public class ShapeClient {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter the shape you want :");
+		Scanner sc= new Scanner(System.in);
+		try{
+			String shape = sc.next();
+		}finally {
+			sc.close();
+		}
+		
+		
+		
+	}
+
+}

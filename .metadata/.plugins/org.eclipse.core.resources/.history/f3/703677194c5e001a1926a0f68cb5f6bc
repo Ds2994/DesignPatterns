@@ -1,0 +1,13 @@
+package com.deadsec.model;
+
+public class Square implements Shape{
+
+	@Override
+	public void draw() {
+		System.out.println("Drawing a Square!!");
+	}
+	
+	public void area(int side) {
+		System.out.println("Area of the square is - " + side*2);
+	}
+}

@@ -1,0 +1,24 @@
+package com.deadsec.test;
+
+import java.util.Scanner;
+
+import com.deadsec.factory.ShapeFactory;
+import com.deadsec.model.Shape;
+
+public class ShapeClient {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter the shape you want :");
+		Scanner sc= new Scanner(System.in);
+		try{
+			String shape = sc.next();
+			Shape s = ShapeFactory.getShape(shape);
+		}finally {
+			sc.close();
+		}
+		
+		
+		
+	}
+
+}

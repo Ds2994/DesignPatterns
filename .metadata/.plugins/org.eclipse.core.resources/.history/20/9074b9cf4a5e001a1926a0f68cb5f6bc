@@ -1,0 +1,5 @@
+package com.deadsec.factory;
+
+public class ShapeFactory {
+
+}

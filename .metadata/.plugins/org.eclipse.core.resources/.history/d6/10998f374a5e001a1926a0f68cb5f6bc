@@ -1,0 +1,14 @@
+package com.deadsec.model;
+
+public class Rectangle implements Shape {
+
+	@Override
+	public void draw() {
+		System.out.println("Drawing a Rectangle!!");
+	}
+	
+	public void area(int length, int breadth) {
+		System.out.println("Area of the rectangle is - "+ (length * breadth));
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.deadsec.test;
+
+public class ShapeClient {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter the shape you want :");
+
+	}
+
+}
